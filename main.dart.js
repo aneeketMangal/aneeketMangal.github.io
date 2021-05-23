@@ -50918,7 +50918,7 @@ E.ws.prototype={
 N:function(a,b){var s=null,r=M.cp(s,L.hW("Myself Aneeket Mangal and I am a pre-final year student at Indian Institute of Technology, Ropar. I am currently serving as a Coordinator of Coding Club, IIT Ropar. I am a programming enthusiast working his way out through algorithms and frameworks. I strongly believe Python lists are better than C++ arrays. A Illustrator novice and a poetry fanatic, I love to whip descriptions of things I observe, be it textual or visual.\nP.S.: The above caricature is mine.",A.jf(s,s,C.um,s,s,s,s,s,s,s,s,18,s,C.aB,s,1.2,!0,s,s,s,s,s,s)),C.l,s,new S.aq(0,1110,0,1/0),s,s,s,s,C.vF,s,s,s),q=K.iB(30),p=t.Y
 return M.cp(s,new T.hD(C.oM,T.fn(H.c([T.fn(H.c([new K.BQ("About Me",C.pD,s),r,M.cp(s,R.Ox(!1,!0,T.x2(T.Sg(H.c([U.Ob("assets/images/download.png",40),T.fJ(s,s,20),L.hW("My Resume",$.a0y().TI(20))],p),C.mi),s,s),s,!0,s,s,s,s,s,s,s,s,s,new E.Jz(),s),C.l,s,s,new S.cJ(C.pD,s,s,q,s,s,C.G),s,s,s,new V.aL(20,11.764705882352942,20,11.764705882352942),s,s,250)],p),C.bh,C.mj),T.fJ(s,60,s)],p),C.bh,C.b4),s),C.l,s,s,new S.cJ(C.j,s,s,s,s,s,C.G),s,s,s,s,s,s,1/0)}}
 E.Jz.prototype={
-$0:function(){return T.wb("https://drive.google.com/file/d/1AlKhNZZ__-IkNFzkTPk1KS2f8f-DHv_m/view?usp=sharing")},
+$0:function(){return T.wb("https://drive.google.com/file/d/1MeJZ0EtXfFe11jSDqk-PNk7sr9Fl86CV/view?usp=sharing")},
 $S:41}
 V.ro.prototype={
 aR:function(){return new V.Gw(C.m)}}
