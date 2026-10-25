@@ -1,10 +1,12 @@
-// Retire the previous Flutter site's offline cache during the portfolio migration.
 self.addEventListener('install', () => self.skipWaiting());
+
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
-    await Promise.all(['flutter-app-manifest', 'flutter-temp-cache', 'flutter-app-cache'].map(name => caches.delete(name)));
+    const keys = await caches.keys();
+    await Promise.all(keys.map(key => caches.delete(key)));
+    await self.clients.claim();
     await self.registration.unregister();
-    const windows = await self.clients.matchAll({ type: 'window' });
-    await Promise.all(windows.map(client => client.navigate(client.url)));
+    const clients = await self.clients.matchAll({type: 'window'});
+    await Promise.all(clients.map(client => client.navigate(client.url)));
   })());
 });
